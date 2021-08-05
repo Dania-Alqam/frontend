@@ -1,0 +1,1720 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راديو البلد </title>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <meta name="author" content="Codeconvey" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/grids.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.video.play.png">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+
+</head>
+<style>
+    .owl-theme .owl-dots .owl-dot span {
+        width: 25px;
+        height: 25px;
+        margin: 5px 7px;
+        background-color: white;
+        /* background: #D6D6D6; */
+        border: 1px solid grey;
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #ffffff;
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+
+    }
+
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: #ffffff;
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    .owl-theme .owl-dots .owl-dot {
+        display: inline-block;
+        position: relative;
+        zoom: 1;
+        display: inline;
+    }
+
+    .owl-theme .owl-dots .owl-dot span::before {
+        content: '';
+        /* display: inline-block; */
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        -moz-border-radius: 7.5px;
+        -webkit-border-radius: 7.5px;
+        /* border-radius: 7.5px; */
+        top: 50%;
+        background-color: #d21010;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .owl-theme .owl-dots .owl-dot span::after {}
+
+    .owl-theme .owl-dots .owl-dot.active span {
+        border: 1px solid rgb(255, 0, 0);
+
+    }
+</style>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="shadow">
+                <div class="container">
+
+                    <div class="top-header1">
+                        <div> اليوم السبت 15/10/2016 م - 14 محرم 1438 ه </div>
+                        <ul class="top-headerlist">
+                            <li><a href="#"> الرئيسة</a></li>
+                            <li><a href="#"> أعلن معنا</a></li>
+                            <li><a href="#"> دفتر الزوار </a></li>
+                            <li><a href="#"> اتصل بنا </a></li>
+
+                            <li><a><svg height="16" viewBox="0 0 512 512" width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="m60 512c33.089844 0 61-26.910156 61-60s-27.910156-61-61-61-60 27.910156-60 61 26.910156 60 60 60zm0 0" />
+                                        <path
+                                            d="m15 300h30c91.125 0 167 75.871094 167 167v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-124.265625-102.734375-227-227-227h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15zm0 0" />
+                                        <path
+                                            d="m15 180h30c157.402344 0 287 129.597656 287 287v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-190.539062-156.460938-347-347-347h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15zm0 0" />
+                                        <path
+                                            d="m45 0h-30c-8.285156 0-15 6.714844-15 15v30c0 8.285156 6.714844 15 15 15h30c223.675781 0 407 183.324219 407 407v30c0 8.285156 6.714844 15 15 15h30c8.285156 0 15-6.714844 15-15v-30c0-256.8125-210.1875-467-467-467zm0 0" />
+                                    </svg></a></li>
+                            <li><a href="#" title="twitter"><svg height="16" viewBox="-21 -81 681.33464 681" width="16"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="m200.964844 515.292969c241.050781 0 372.871094-199.703125 372.871094-372.871094 0-5.671875-.117188-11.320313-.371094-16.9375 25.585937-18.5 47.824218-41.585937 65.371094-67.863281-23.480469 10.441406-48.753907 17.460937-75.257813 20.636718 27.054687-16.230468 47.828125-41.894531 57.625-72.488281-25.320313 15.011719-53.363281 25.917969-83.214844 31.808594-23.914062-25.472656-57.964843-41.402344-95.664062-41.402344-72.367188 0-131.058594 58.6875-131.058594 131.03125 0 10.289063 1.152344 20.289063 3.398437 29.882813-108.917968-5.480469-205.503906-57.625-270.132812-136.921875-11.25 19.363281-17.742188 41.863281-17.742188 65.871093 0 45.460938 23.136719 85.605469 58.316407 109.082032-21.5-.660156-41.695313-6.5625-59.351563-16.386719-.019531.550781-.019531 1.085937-.019531 1.671875 0 63.46875 45.171875 116.460938 105.144531 128.46875-11.015625 2.996094-22.605468 4.609375-34.558594 4.609375-8.429687 0-16.648437-.828125-24.632812-2.363281 16.683594 52.070312 65.066406 89.960937 122.425781 91.023437-44.855469 35.15625-101.359375 56.097657-162.769531 56.097657-10.5625 0-21.003906-.605469-31.2617188-1.816407 57.9999998 37.175781 126.8710938 58.871094 200.8867188 58.871094" />
+                                    </svg></a></li>
+
+                            <li><a href="#" title="facebook"> <svg id="Bold" enable-background="new 0 0 24 24"
+                                        height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z" />
+                                    </svg> </a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="top-header2">
+
+                    <div class="title">
+                        <a href="#" id="icon"><img src="images/Layer 91.png" alt="راديو البلد"> </a>
+                        <div>
+                            <div class="title-1">راديو البلد</div>
+                            <div class="title-2"> 95.6 FM</div>
+                        </div>
+                    </div>
+                    <div>
+                        <ul class="top-list">
+                            <li><img src="images/rain.png"></li>
+                            <li><a><svg enable-background="new 0 0 24 24" height="18" viewBox="0 0 24 24" width="18"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="m12 0c-4.962 0-9 4.066-9 9.065 0 7.103 8.154 14.437 8.501 14.745.143.127.321.19.499.19s.356-.063.499-.189c.347-.309 8.501-7.643 8.501-14.746 0-4.999-4.038-9.065-9-9.065zm0 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z" />
+                                    </svg></a></li>
+                            <li> جنين </li>
+                            <li>11 C</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bottom-header" id="myHeader">
+                <div class="container">
+                    <ul class="headerlist">
+                        <li><a href="#">أخبار البلد </a></li>
+                        <li><a href="#"> اقتصاد واعمال </a></li>
+                        <li><a href="#"> أخبار الأسرى </a></li>
+                        <li><a href="#"> رياضة </a></li>
+                        <li><a href="#">فن وغنى </a></li>
+                        <li><a href="#">طرائف وغرئب</a></li>
+                        <li><a href="#">علوم وتكنولوجيا </a></li>
+                        <li><a href="#">الصحة والأسرة </a></li>
+                        <li><a href="#">سياحة وسفر </a></li>
+                        <li><a href="#">مطبخ </a></li>
+                        <li><a href="#"> أدب وثقافة </a></li>
+                        <li><a href="#">كاريكاتير</a></li>
+                        <li><a>
+                                <?xml version="1.0" encoding="iso-8859-1"?>
+                                <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                                <svg width="15px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 512.005 512.005" style="enable-background:new 0 0 512.005 512.005;"
+                                    xml:space="preserve">
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M505.749,475.587l-145.6-145.6c28.203-34.837,45.184-79.104,45.184-127.317c0-111.744-90.923-202.667-202.667-202.667
+                                        S0,90.925,0,202.669s90.923,202.667,202.667,202.667c48.213,0,92.48-16.981,127.317-45.184l145.6,145.6
+                                        c4.16,4.16,9.621,6.251,15.083,6.251s10.923-2.091,15.083-6.251C514.091,497.411,514.091,483.928,505.749,475.587z
+                                         M202.667,362.669c-88.235,0-160-71.765-160-160s71.765-160,160-160s160,71.765,160,160S290.901,362.669,202.667,362.669z" />
+                                        </g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                    <g>
+                                    </g>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- /last news section  -->
+    <div class="container">
+        <div class="second-section">
+            <div class="news-section">
+                <div class="news-block">آخر الأخبار</div>
+                <div class="news-slider">
+                    <div id="carousel" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <h4>الاحتلال يستهدف المزارعين شرق مدينة غزة</h4>
+                        </div>
+                        <div class="item">
+                            <h4>الاحتلال يعتقل الشاب محمد أبو عميرة </h4>
+                        </div>
+                        <div class="item">
+                            <h4>الاحتلال يقصف غزة</h4>
+                        </div>
+                        <div class="item">
+                            <h4>الاحتلال يعتقل الشاب محمد أبو عميرة</h4>
+                        </div>
+                        <div class="item">
+                            <h4>الاحتلال يستهدف المزارعين شرق مدينة غزة</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="live-sec">
+                <img src="images/microphone.png">
+                <div class="live-section">
+                    البث المباشر
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="news">
+            <div class="row">
+                <div class="col-3">
+                    <a href="#" class="sub">
+                        <div class="news-div"> أخبار البلد</div>
+                        <div class="news-content">
+                            <div>22/1/2017</div>
+                            <div class="newbcontainer">
+                                <div class="news-contentborder">
+                                    <div class="news-contentborder overlay">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-contenttext">الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عامًا</div>
+                        </div>
+                        <img src="./images/Layer 3.png" alt="news picture">
+                    </a>
+                </div>
+                <div class="col-3">
+                    <div class="row pad">
+
+                        <div class="col-12">
+                            <a href="#" class="sub">
+                                <div class="news-div"> رياضة</div>
+
+                                <img src="./images/Layer 5.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row pad ">
+                        <div class="col-12">
+                            <a href="#" class="sub">
+                                <div class="news-div"> اقتصاد وأعمال</div>
+                                <div class="news-content">
+                                    <div>22/1/2017</div>
+                                    <div class="newbcontainer">
+                                        <div class="news-contentborder">
+                                            <div class="news-contentborder overlaypink">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="news-contenttext">الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                        عامًا</div>
+                                </div>
+                                <img src="./images/Layer 4.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <div class="row pad">
+                        <div class="col-12">
+
+                            <a href="#" class="sub">
+                                <div class="news-div"> أخبار الأسرى</div>
+                                <div class="news-content">
+                                    <div>22/1/2017</div>
+                                    <div class="newbcontainer">
+                                        <div class="news-contentborder">
+                                            <div class="news-contentborder overlaygreen">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="news-contenttext">الافراج عن الأسير المحرر </div>
+                                </div>
+                                <img src="./images/Layer 6.png">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="row pad">
+
+                            <a href="#" class="sub">
+                                <div class="news-div"> أخبار البلد</div>
+                                <img src="./images/Layer 8.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <a href="#" class="sub">
+                        <div class="news-div"> سياحة وسفر</div>
+
+                        <img src="./images/Layer 7.png" alt="news picture">
+                    </a>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <!-- *****************************************  -->
+
+
+
+    <div class="container">
+        <div class="palestinian-newsection">
+            <div class="row">
+                <div class="col-9">
+                    <div class="block pink">
+                        <div class="top-newsheader">
+                            <div class="top-newsheadertext">
+                                أخبار فلسطينية
+                            </div>
+                            <div class="top-newsheadercolor "> </div>
+                        </div>
+                        <div class="block-head">
+                            <div class="block--title"></div>
+                        </div>
+
+                        <div class="block-content">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div id="carouselsilder" class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-4 divc">
+                                    <div class="border">
+                                        <a><img style="width: 260px; height: 146px;" src="images/Layer 13.png"></a>
+                                        <div class="pnsdate"> 22/1/2017</div>
+                                        <div class="pnstext">
+                                            الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عامًا
+                                        </div>
+
+                                        <div>
+
+                                            <a><img style="width: 260px; height: 146px;" src="images/Layer 14.png"></a>
+                                            <div class="pnsdate"> 22/1/2017</div>
+                                            <div class="pnstext">
+                                                الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عامًا
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="vl"></div> -->
+                </div>
+
+
+                <div class="col-3">
+                    <div class="">
+                        <ul class="palesnewsList">
+                            <li><a href="#"> <img src="images/football-player-setting-ball.png" alt="football player">
+                                </a>
+                                رياضة
+                            </li>
+                            <li><a href="#"> <img src="images/knife-and-fork.png" alt="football player"></a>
+                                مطبخ
+                            </li>
+                            <li><a href="#"> <img src="images/musical-note.png" alt="football player"></a> فن
+                                وغنى
+                            </li>
+                        </ul>
+                        <div class="newsborder"></div>
+                    </div>
+                    <div class="palestinenews-sidesection">
+                        <div class="item">
+                            <div>
+                                <img src="images/layer 15.png" alt="amro diab ">
+                            </div>
+                            <div class="content">
+                                عمرو دياب وراغب وناصيف زيتون
+                                الوحيدون الموثوققون لدى موقع shazam
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <div>
+                                <img src="images/layer 73.png" alt="amro diab ">
+                            </div>
+                            <div class="content">
+                                عمرو دياب وراغب وناصيف زيتون
+                                الوحيدون الموثوققون لدى موقع shazam
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div>
+                                <img src="images/layer 74.png" alt="amro diab ">
+                            </div>
+                            <div class="content">
+                                عمرو دياب وراغب وناصيف زيتون
+                                الوحيدون الموثوققون لدى موقع shazam
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div>
+                                <img src="images/layer 75.png" alt="amro diab ">
+                            </div>
+                            <div class="content">
+                                عمرو دياب وراغب وناصيف زيتون
+                                الوحيدون الموثوققون لدى موقع shazam
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div>
+                                <img src="images/layer 76.png" alt="amro diab ">
+                            </div>
+                            <div class="content">
+                                عمرو دياب وراغب وناصيف زيتون
+                                الوحيدون الموثوققون لدى موقع shazam
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- -------------------- -->
+            <div class="row">
+                <div class="col-9">
+                    <div class="block pink">
+                        <div class="block-head">
+                            <div class="block--title"></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <!-- <div class="container"> -->
+                                    <div style="position: relative;">
+                                        <div class="news-content-border">
+                                            <div class="news-contentborder lay">
+                                            </div>
+                                        </div>
+
+
+                                        <div class="todayprog">
+                                            <div> <img src="images/voice-recorder.png"></div>
+
+                                            <div class="todayprogtext"> برامجنا لهذا اليوم </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="programecontent">
+                                        <div class="time">6:00</div>
+                                        <div class="space "></div>
+                                        <div class="name"> قرآن كريم </div>
+                                    </div>
+                                    <div class="programecontent">
+                                        <div class="time">6:15</div>
+                                        <div class="space "></div>
+
+                                        <div class="name"> موجز انباء الصباح </div>
+                                    </div>
+                                    <div class="programecontent">
+                                        <div class="time">6:30</div>
+                                        <div class="space "></div>
+                                        <div class="name"> فيروزيات </div>
+                                        <div class="square "> يعرض الآن </div>
+                                    </div>
+                                    <div class="programecontent">
+                                        <div class="time">8:30</div>
+                                        <div class="space "></div>
+
+                                        <div class="name"> هذا الصباح </div>
+                                    </div>
+                                    <div class="programecontent">
+                                        <div class="time">10:00</div>
+                                        <div class="space "></div>
+
+                                        <div class="name"> نشرة أخبار العاشرة</div>
+                                    </div>
+                                    <div class="programecontent">
+                                        <div class="time">6:00</div>
+                                        <div class="space "></div>
+
+                                        <div class="name"> استراحة غنائية </div>
+                                    </div>
+                                    <div class="programecontent">
+                                        <div class="time">6:00</div>
+                                        <div class="space "></div>
+
+                                        <div class="name"> آذان الظهر </div>
+                                    </div>
+                                    <!-- <div class="news-content-borderhori"> -->
+                                    <!-- <div class="scrollbar" id="style-2">
+                                            <div class="force-overflow"></div>
+                                        </div> -->
+                                    <!-- </div> -->
+                                </div>
+                                <div class="col-8">
+                                    <!-- <div class="container"> -->
+                                    <div class="gray">
+                                        <div class="news-content-border">
+                                            <div class="news-contentborder lay">
+                                            </div>
+                                        </div>
+                                        <div class="todayprog ">
+                                            <div> <img src="images/Rectangle 5 copy.png"></div>
+                                            <div class="todayprogtext"> برامجنا المسجلة </div>
+                                        </div>
+
+                                        <div class="container ">
+                                            <div class="contafter">
+                                                <div class="flexspace">
+                                                    <div class="flex">
+                                                        <div> <img src="images/Rectangle 5 cop.png"> </div>
+                                                        <div class="todayprogtext">ما يطلبه المشاهدين </div>
+                                                    </div>
+
+                                                    <div><img src="images/download-arrow copy.png"></div>
+                                                </div>
+                                                <div class="secondcontent">تقدمه الزميلة أمل الحبلي</div>
+                                            </div>
+
+                                            <div class="contafter morning">
+                                                <div class="flexspace">
+                                                    <div class="flex">
+                                                        <div> <img src="images/pause.png"> </div>
+                                                        <div class="todayprogtext morning">برنامج هذا الصباح </div>
+                                                    </div>
+
+                                                    <div><img src="images/download-arrow copy.png"></div>
+                                                </div>
+                                                <div class="secondcontent">يقدمه الزميل محمد يوسف غانم</div>
+                                            </div>
+
+                                            <div class="contafter">
+                                                <div class="flexspace">
+                                                    <div class="flex">
+                                                        <div> <img src="images/Rectangle 5 cop.png"> </div>
+                                                        <div class="todayprogtext">نشرة الأخبار </div>
+                                                    </div>
+
+                                                    <div><img src="images/download-arrow copy.png"></div>
+                                                </div>
+                                                <div class="secondcontent">يقدمها الزميل محمد عبد الرؤؤوف الشامي </div>
+                                            </div>
+
+                                            <div class="contafter">
+                                                <div class="flexspace">
+                                                    <div class="flex">
+                                                        <div> <img src="images/Rectangle 5 cop.png"> </div>
+                                                        <div class="todayprogtext">نبض البلد </div>
+                                                    </div>
+
+                                                    <div><img src="images/download-arrow copy.png"></div>
+                                                </div>
+                                                <div class="secondcontent">برنامج يدرس حالة الشارع الفلسطيني في مدينة
+                                                    جنين</div>
+                                            </div>
+
+                                            <div class="contafter">
+                                                <div class="flexspace">
+                                                    <div class="flex">
+                                                        <div> <img src="images/Rectangle 5 cop.png"> </div>
+                                                        <div class="todayprogtext">لقاء الأسبوع </div>
+                                                    </div>
+
+                                                    <div><img src="images/download-arrow copy.png"></div>
+                                                </div>
+                                                <div class="secondcontent">نسلط الضوء في كل أسبوع على شخصية هامة في
+                                                    المجتمع الفلسطيني
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="vl"></div> -->
+                </div>
+                <div class="col-3">
+                    <!-- <div class="container"> -->
+                    <div style="position: relative;">
+                        <div class="news-content-border">
+                            <div class="news-contentborder lay">
+                            </div>
+                        </div>
+                        <div class="todayprog">
+                            <div> <img src="images/heartbeat.png"></div>
+                            <div class="todayprogtext padbottom"> استفتاء جاري حاليًا </div>
+                        </div>
+
+                        <div class="padbottom size">
+
+                            هل أنت راضِ عن أداء الوفد الفلسطيني في القاهرة ؟
+                        </div>
+
+                        <div class="padbottom">
+                            <div class="progbar">
+                                <div>لا </div>
+                                <div> 40% </div>
+                            </div>
+                            <div id="myProgress">
+                                <div id="myBar">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="padbottom">
+                            <div class="progbarY">
+                                <div style="white-space: nowrap;">لا أعرف </div>
+                                <div> 27% </div>
+                            </div>
+                            <div id="myProgress">
+                                <div id="myBaryellow">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="padbottom">
+                            <div class="progbarB">
+                                <div>أتحفظ </div>
+                                <div> 6% </div>
+                            </div>
+                            <div id="myProgress">
+                                <div id="myBarblue">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="progcontent pad">
+                                التصويت من تاريخ 16/8/2019
+                                إلى 22/8/2014
+                            </div>
+
+                            <div class="progcontent">
+                                مجموع التوصيات : 2
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+
+
+            <div class="row" style="padding-bottom: 90px;">
+                <div class="col-9">
+                    <div class="block pink">
+                        <div class="top-newsheader">
+                            <div class="top-newsheadertext">
+                                عربي ودولي
+                            </div>
+                            <div class="top-newsheaderarablic "> </div>
+                        </div>
+                        <div class="block-head">
+                            <div class="block--title"></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div id="carouselsilde" class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <a><img src="images/Layer 72.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 12.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="arabic-divbottom">
+                                        <p class="arabic-divtext"> 870*120</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 divc">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <a><img style="width: 260px; height: 146px;" src="images/Layer 70.png"></a>
+                                            <div class="pnsdate"> 22/1/2017</div>
+                                            <div class="pnstext">
+                                                الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عامًا
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" id="row">
+                                        <div class="col-12">
+                                            <a><img style="width: 260px; height: 146px;" src="images/Layer 71.png"></a>
+                                            <div class="pnsdate"> 22/1/2017</div>
+                                            <div class="pnstext">
+                                                الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عامًا
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- <div class="vl"></div> -->
+                    </div>
+
+                    <div class="block pink">
+                        <div class="top-newsheader">
+                            <div class="top-newsheadertext">
+                                أخبار جنين
+                            </div>
+                            <div class="top-newsheaderarablic "> </div>
+                        </div>
+                        <div class="block-head">
+                            <div class="block--title"></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="row">
+                                <div class="col-8">
+                                    <div id="carouselsild" class="owl-carousel owl-theme">
+                                        <div class="item">
+                                            <a><img src="images/Layer 65.png"></a>
+                                            <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا
+                                            </div>
+                                            <div>
+                                                <p> دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+                                                    تدشين
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- <div class="vl"></div> -->
+                                </div>
+                                <div class="col-4">
+                                    <div class="item display">
+                                        <div>
+                                            <img src="images/layer 66.png" alt="amro diab ">
+                                        </div>
+                                        <div class="content">
+                                            الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عاما
+                                        </div>
+                                    </div>
+                                    <div class="item display">
+                                        <div>
+                                            <img src="images/layer 67.png" alt="amro diab ">
+                                        </div>
+                                        <div class="content">
+                                            الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عاما
+                                        </div>
+                                    </div>
+                                    <div class="item display">
+                                        <div>
+                                            <img src="images/layer 68.png" alt="amro diab ">
+                                        </div>
+                                        <div class="content">
+                                            الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عاما
+                                        </div>
+                                    </div>
+                                    <div class="item display">
+                                        <div>
+                                            <img src="images/layer 69.png" alt="amro diab ">
+                                        </div>
+                                        <div class="content">
+                                            الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عاما
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="block pink">
+                        <div class="top-newsheader">
+                            <div class="top-newsheadertext">
+                                أخبار الأسرى
+                            </div>
+                            <div class="top-newsheaderasra "> </div>
+
+                        </div>
+
+
+                        <div class="block-head">
+                            <div class="block--title"></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="row">
+                                <div class="col-12">
+
+                                    <div class="palestinenews-sidesection">
+                                        <div class="item">
+                                            <a><img src="images/Layer 65.png"></a>
+                                            <div class="padRight">
+
+                                                <div>22-1-2017</div>
+                                                <div class="itemcontent"> الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة
+                                                    14 عامًا</div>
+
+                                                <div>
+                                                    دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <a><img src="images/Layer 65.png"></a>
+                                            <div class="padRight">
+
+                                                <div>22-1-2017</div>
+                                                <div class="itemcontent"> الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة
+                                                    14 عامًا</div>
+
+                                                <div>
+                                                    دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <a><img src="images/Layer 65.png"></a>
+                                            <div class="padRight">
+
+                                                <div>22-1-2017</div>
+                                                <div class="itemcontent"> الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة
+                                                    14 عامًا</div>
+
+                                                <div>
+                                                    دشنت وزارة المواصلات في حكومة الاحتلال الاسرائيلي صباح الأحد,مشروع
+                                                    سكة
+                                                    القطار
+                                                    الذي
+                                                    يربط حيفا بمنطقة بيسان على الحدود مع الأرد والتي كانت أغلقتها ابان
+                                                    عام
+                                                    النكبة
+                                                    ويأتي
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- <div class="col-4">
+                                   
+                                </div> -->
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="block pink">
+                        <div class="top-newsheader">
+                            <div class="top-newsheadertext">
+                                رياضة
+                            </div>
+                            <div class="top-newsheadersport "> </div>
+                        </div>
+
+
+                        <div class="block-content">
+                            <div class="row">
+                                <div class="col-4 ">
+                                    <!-- <div><img src="images/Rectangle 35.png"> تصفيات الأمم الافريقية </div> -->
+
+                                    <a href="#" class="subsport">
+                                        <div class="news-contentsport">
+                                            <div class="padbottom">تصفيات الأمم الأفريقية </div>
+                                            <div class="flex" style="    justify-content: space-between;">
+                                                <div><img src="images/Al_Ahly_SC_(1).png"></div>
+                                                <div class="">VS</div>
+                                                <div><img src="images/Logo_FTF.png"> </div>
+                                            </div>
+
+                                            <div class="flex">
+                                                <div>2</div>
+                                                <div class="">22/3/2019</div>
+                                                <div>3 </div>
+                                            </div>
+                                        </div>
+                                        <img src="./images/Rectangle 35.png" alt="news picture">
+
+                                    </a>
+                                    <div>
+                                        <div class="rel">
+                                            <div class="flex " id="sport">
+                                                <div class="flex"><img src="images/Algeria_NFT_(logo).png"
+                                                        alt="algeriaLogo">الجزائري
+                                                </div>
+                                                <div class="vs" style="white-space: nowrap;">2-3</div>
+                                                <div class="flex"><img src="images/شعار_نادي_غزل_المحلة.png"
+                                                        alt="algeriaLogo"> غزل
+                                                    المحلة</div>
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="result-row">
+                                            <div class="item1">
+                                                <div class="item1-imag">
+                                                    <img src="images/200px-Logo_Etoile_du_Sahel.svg.png"
+                                                        alt="algeriaLogo">
+                                                </div>
+                                                <div class="item1-title">
+                                              الجزائري 
+                                                </div>
+                                            </div>
+                                        </div> -->
+
+                                        <div class="rel">
+                                            <div class="flex " id="sport">
+                                                <div class="norap"><img src="images/200px-Logo_Etoile_du_Sahel.svg.png"
+                                                        alt="algeriaLogo">الجزائري
+                                                </div>
+                                                <div class="vs" style="white-space: nowrap;">1-0</div>
+                                                <div class="norap"><img src="images/شعار_الاتحاد_السكندري.png"
+                                                        alt="algeriaLogo"> الجزائري
+                                                   </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="rel">
+                                            <div class="flex " id="sport">
+                                                <div class="norap"><img src="images/Coton7222013.png"
+                                                        alt="algeriaLogo">الجزائري
+                                                </div>
+                                                <div class="vs" style="white-space: nowrap;">2-3</div>
+                                                <div class="norap"><img src="images/photo (1).png" alt="algeriaLogo">
+                                                    الجزائري</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+
+                                    <div><img src="images/Layer 25.png"></div>
+                                </div>
+
+
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="block pink">
+                        <div class="top-newsheader">
+                            <div class="top-newsheadertext">
+                                اقتصاد وأعمال
+                            </div>
+                            <div class="top-newsheaderbus "> </div>
+                        </div>
+                        <div class="block-head">
+                            <div class="block--title"></div>
+                        </div>
+
+                        <div class="block-content">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#" class="">
+                                        <div class="news-content">
+                                            <div>22/1/2017</div>
+                                            <div class="newbcontainer">
+                                                <div class="news-contentborder">
+                                                    <div class="news-contentborder overlaynone">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="news-contenttext">الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13
+                                                عامًا</div>
+                                        </div>
+                                        <img src="./images/Layer 55.png" alt="news picture">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="row down">
+
+                                        <div class="col-12">
+                                            <a href="#" class="">
+
+                                                <div class="news-content">
+                                                    <div>22/1/2017</div>
+                                                    <div class="newbcontainer">
+                                                        <div class="news-contentborder">
+                                                            <div class="news-contentborder overlaynone">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="news-contenttext">الجيش الاسرائيلي يعتقل الشاب محمد أبو
+                                                        عميرة 13
+                                                        عامًا</div>
+                                                </div>
+                                                <img src="./images/Layer 54.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row  ">
+                                        <div class="col-6">
+                                            <a href="#" class="">
+
+                                                <div class="news-content">
+                                                    <div>22/1/2017</div>
+                                                    <div class="newbcontainer">
+                                                        <div class="news-contentborder">
+                                                            <div class="news-contentborder overlaynone">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="news-contenttext">الجيش الاسرائيلي يعتقل الشاب محمد أبو
+                                                        عميرة 13
+                                                        عامًا</div>
+                                                </div>
+                                                <img src="./images/Layer 56.png">
+                                            </a>
+                                        </div>
+                                        <div class="col-6">
+                                            <a href="#" class="">
+                                                <div class="news-content">
+                                                    <div>22/1/2017</div>
+                                                    <div class="newbcontainer">
+                                                        <div class="news-contentborder">
+                                                            <div class="news-contentborder overlaynone">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="news-contenttext">الجيش الاسرائيلي يعتقل الشاب محمد أبو
+                                                        عميرة 13
+                                                        عامًا</div>
+                                                </div>
+                                                <img src="./images/Layer 57.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="vl"></div> -->
+                </div>
+
+                <div class="col-3">
+                    <div>
+                        <div class="arabic-div">
+                            <p class="arabic-divtext"> 270 * 300</p>
+                        </div>
+                        <div class="palestinenews-sidesection">
+                            <div class="background">
+                                <img src="images/(Group).png" style="top:0">
+                                <div class="backgroungtext">
+                                    سياحة وسفر
+                                </div>
+
+                                <div class="palestinenews-sidesection">
+                                    <div class="item">
+                                        <div>
+                                            <img src="images/layer 88.png" alt="amro diab ">
+                                        </div>
+                                        <div class="content">
+                                            الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عاما
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div>
+                                            <img src="images/layer 89.png" alt="amro diab ">
+                                        </div>
+                                        <div class="content">
+                                            الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عاما
+
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div>
+                                            <img src="images/layer 90.png" alt="amro diab ">
+                                        </div>
+                                        <div class="content">
+                                            الجيش الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عاما
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="palestinenews-sidesection">
+                            <div class="arabic-div">
+                                <p class="arabic-divtext"> 270 * 300</p>
+                            </div>
+                        </div>
+
+                        <div class="science">
+                            <div class="science-text"> علوم وتكنولوجيا </div>
+
+                            <div id="c" class="owl-carousel owl-theme">
+                                <div class="item-science">
+                                    <a><img src="images/Layer 77.png"></a>
+                                    <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عامًا
+                                    </div>
+                                    <a><img src="images/Layer 78.png"></a>
+                                    <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عامًا
+                                    </div>
+                                </div>
+
+                                <div class="item-science">
+                                    <a><img src="images/Layer 12.png"></a>
+                                    <div class="itemcontent">الاحتلال الاسرائيلي يعتقل الشاب محمد أبو عميرة 13 عامًا
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+                        <div class="newbcontainer">
+                            <div class="news-let">
+                                <div class="news-contentborder overlayred">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="palestinenews-sidesection">
+                            <div class="flex-right">
+                                <div> <img src="images/theatre-masks.png"></div>
+                                <div class="literature  ">أدب وثقافة </div>
+                            </div>
+                            <div class="item-let">
+                                <div>
+                                    <img src="images/layer 84.png" alt="amro diab ">
+                                </div>
+                                <div class="content">
+                                    عمرو دياب وراغب وناصيف زيتون
+                                    الوحيدون الموثوققون لدى موقع shazam
+                                </div>
+                            </div>
+                            <div class="item-let">
+                                <div>
+                                    <img src="images/layer 85.png" alt="amro diab ">
+                                </div>
+                                <div class="content">
+                                    عمرو دياب وراغب وناصيف زيتون
+                                    الوحيدون الموثوققون لدى موقع shazam
+                                </div>
+                            </div>
+                            <div class="item-let">
+                                <div>
+                                    <img src="images/layer 86.png" alt="amro diab ">
+                                </div>
+                                <div class="content">
+                                    عمرو دياب وراغب وناصيف زيتون
+                                    الوحيدون الموثوققون لدى موقع shazam
+                                </div>
+                            </div>
+                            <div class="item-let">
+                                <div>
+                                    <img src="images/layer 87.png" alt="amro diab ">
+                                </div>
+                                <div class="content">
+                                    عمرو دياب وراغب وناصيف زيتون
+                                    الوحيدون الموثوققون لدى موقع shazam
+                                </div>
+                            </div>
+                        </div>
+                        <div class="newbcontainer">
+                            <div class="news-let">
+                                <div class="news-contentborder overlayred">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="palestinenews-sidesection">
+                            <div class="flex-right">
+                                <div> <img src="images/familiar-insurance-symbol.png"></div>
+                                <div class="literature  ">الصحة والأسرة </div>
+                            </div>
+                            <div class="item-let">
+                                <div>
+                                    <img src="images/layer 80.png" alt="amro diab ">
+                                </div>
+                                <div class="content">
+                                    عمرو دياب وراغب وناصيف زيتون
+                                    الوحيدون الموثوققون لدى موقع shazam
+                                </div>
+                            </div>
+                            <div class="item-let">
+                                <div>
+                                    <img src="images/layer 81.png" alt="amro diab ">
+                                </div>
+                                <div class="content">
+                                    عمرو دياب وراغب وناصيف زيتون
+                                    الوحيدون الموثوققون لدى موقع shazam
+                                </div>
+                            </div>
+                            <div class="item-let">
+                                <div>
+                                    <img src="images/layer 82.png" alt="amro diab ">
+                                </div>
+                                <div class="content">
+                                    عمرو دياب وراغب وناصيف زيتون
+                                    الوحيدون الموثوققون لدى موقع shazam
+                                </div>
+                            </div>
+                            <div class="item-let">
+                                <div>
+                                    <img src="images/layer 83.png" alt="amro diab ">
+                                </div>
+                                <div class="content">
+                                    عمرو دياب وراغب وناصيف زيتون
+                                    الوحيدون الموثوققون لدى موقع shazam
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="palestinenews-sidesection">
+                            <div class="arabic-div">
+                                <p class="arabic-divtext"> 270 * 300</p>
+                            </div>
+
+                        </div>
+
+                        <div class="video">
+                            <div class="videotitle "><img src="images/play-button (2).png">
+                                <div>فيديو </div>
+
+
+                            </div>
+                            <div> <img src="images/Rectangle 49.png " width="100%"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <!-- ****************************************************************************************-->
+
+
+
+
+    <!-- **************************************************************************************** -->
+
+
+
+    <footer>
+        <div class="footer1">
+            <div class="container ">
+
+                <div class="footer">
+                    <ul class="footerlist">
+                        <li><a href="#">أخبار البلد </a></li>
+                        <li><a href="#"> اقتصاد واعمال </a></li>
+                        <li><a href="#"> أخبار الأسرى </a></li>
+                        <li><a href="#"> رياضة </a></li>
+                        <li><a href="#">فن وغنى </a></li>
+                        <li><a href="#">طرائف وغرئب</a></li>
+                        <li><a href="#">علوم وتكنولوجيا </a></li>
+                        <li><a href="#">الصحة والأسرة </a></li>
+                        <li><a href="#">سياحة وسفر </a></li>
+                        <li><a href="#">مطبخ </a></li>
+                        <li><a href="#"> أدب وثقافة </a></li>
+                        <li><a href="#">كاريكاتير</a></li>
+
+                    </ul>
+
+                    <div class="footertext">
+                        جميع الحقوق محفوظة لراديو بلدنا
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer2">
+
+            <div class="footer2-content">
+                <div>تصميم وتطوير </div>
+                <img src="images/Layer 3 copy.png">
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+    </script>
+
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+
+
+
+    <script>
+        $('#carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            dots: false,
+            rtl: true,
+            autoplay: true,
+            autoplayTimeout: 1700,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+
+    <script>
+        $('#carouselsilder').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            rtl: true,
+            // autoplay: true,
+            // autoplayTimeout: 1500,
+            // autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+
+    <script>
+        $('#carouselsilde').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            rtl: true,
+            // autoplay: true,
+            // autoplayTimeout: 1500,
+            // autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+
+    <script>
+        $('#carouselsild').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            rtl: true,
+            // autoplay: true,
+            // autoplayTimeout: 1500,
+            // autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+    <script>
+        $('#c').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: false,
+            dots: true,
+            rtl: true,
+            // autoplay: true,
+            // autoplayTimeout: 1500,
+            // autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+
+    </script>
+
+</body>
+
+</html>
